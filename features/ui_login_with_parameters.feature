@@ -11,4 +11,4 @@ Scenario Outline: Login functionality
   Examples:
   |username | password | uimessage |
   |tomsmith | SuperSecretPassword! | You logged into a secure area!|
-  |tomsmith | rthfhn               | Your username is invalid!     |
+  |tomsmith | rthfhn               | Your password is invalid!     |
