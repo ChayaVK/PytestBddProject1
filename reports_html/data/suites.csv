@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"C:\Users\Dr Avinash V K\PycharmProjects\PytestBddProject1\features\ui_login_with_parameters.feature: Login functionality","7291","test_login_functionality[tomsmith-rthfhn-Your password is invalid!]","tests","2025-11-22","passed","2025-11-22","","test_ui_login_with_parameters","",""
+"C:\Users\Dr Avinash V K\PycharmProjects\PytestBddProject1\features\ui_login_with_parameters.feature: Login functionality","7426","test_login_functionality[tomsmith-SuperSecretPassword!-You logged into a secure area!]","tests","2025-11-22","passed","2025-11-22","","test_ui_login_with_parameters","",""
+"C:\Users\Dr Avinash V K\PycharmProjects\PytestBddProject1\features\ui_login.feature: Login functionality","7872","test_login_functionality","tests","2025-11-22","passed","2025-11-22","","test_ui_login","",""
