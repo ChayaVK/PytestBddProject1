@@ -8,14 +8,6 @@ import allure_pytest
 
 scenarios("../features/ui_login.feature")
 
-@pytest.fixture
-def driver():
-    driver = webdriver.Chrome()
-    driver.maximize_window()
-    yield driver
-    driver.quit()
-
-
 @given ("user lands on to login page")
 @allure.step("User on login page")
 def open_login_page(driver):

@@ -7,14 +7,6 @@ from selenium.webdriver.common.by import By
 
 scenarios("../features/ui_login_with_parameters.feature")
 
-@pytest.fixture
-def driver():
-    driver = webdriver.Chrome()
-    driver.maximize_window()
-    yield driver
-    driver.quit()
-
-
 @given ("user lands on to login page")
 @allure.step("User is on login page")
 def open_login_page(driver):
