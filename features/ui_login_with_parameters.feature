@@ -12,3 +12,5 @@ Scenario Outline: Login functionality
   |username | password | uimessage |
   |tomsmith | SuperSecretPassword! | You logged into a secure area!|
   |tomsmith | rthfhn               | Your password is invalid!     |
+  |chaya    | SuperSecretPassword! | Your username is invalid!     |
+  |chaya    | fhgfjytty            | Your username is invalid!     |
